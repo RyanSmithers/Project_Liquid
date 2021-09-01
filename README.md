@@ -1,2 +1,2 @@
 # Project_Liquid
-Github repository for YUAA's Project Liquid Engine team
+Github repository for YUAA's Project Liquid Engine team!
