@@ -1,4 +1,6 @@
 Dependencies:
-numpy, pandas, math
+numpy, pandas, math, rocketpy
 
-The csv files in this folder are used in the python file The RocketFAR.ipynb. They are data files characterizing engine performance from a numerical Matlab solver that generates the thrust curve and the mass flow rates of oxidizer and fuel.
+The csv files in this folder are used in the python file The RocketFAR.ipynb. 
+They are data files characterizing engine performance from a numerical Matlab solver 
+that generates the thrust curve and the mass flow rates of oxidizer and fuel.
