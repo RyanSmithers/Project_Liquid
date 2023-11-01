@@ -1,6 +1,14 @@
-Dependencies:
-numpy, pandas, math, rocketpy
+1. Download all the files contained within this FAR-OUT folder. Makes sure all files download
+  to the same directory/folder on your local computer
 
-The csv files in this folder are used in the python file The RocketFAR.ipynb. 
+2. Open TheRocketFar
+
+3. Add these libraries / dependencies to your Python environment
+    Dependencies:
+    numpy, pandas, math, rocketpy
+
+4. Run the code
+
+**The csv files in this folder are used in the python file The RocketFAR.ipynb. 
 They are data files characterizing engine performance from a numerical Matlab solver 
-that generates the thrust curve and the mass flow rates of oxidizer and fuel.
+that generates the thrust curve and the mass flow rates of oxidizer and fuel.**
