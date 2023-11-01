@@ -1,10 +1,10 @@
 1. Download all the files contained within this FAR-OUT folder. Makes sure all files download
-  to the same directory/folder on your local computer
+to the same directory/folder on your local computer
 
 2. Open TheRocketFar
 
 3. Add these libraries / dependencies to your Python environment
-    Dependencies:
+Dependencies:
     numpy, pandas, math, rocketpy
 
 4. Run the code
