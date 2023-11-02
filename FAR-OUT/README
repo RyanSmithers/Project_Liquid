@@ -1,6 +1,6 @@
 1. Download all the files contained within this FAR-OUT folder. Makes sure all files download to the same directory/folder on your local computer
 
-2. Open TheRocketFAR
+2. Open TheRocketFAR. Ensure you are running Python 3.11 or earlier for compatibility on step 3.
 
 3. Add these libraries / dependencies to your Python environment
 Dependencies:
@@ -11,3 +11,8 @@ Dependencies:
 **The csv files in this folder are used in the python file The RocketFAR.ipynb. 
 They are data files characterizing engine performance from a numerical Matlab solver 
 that generates the thrust curve and the mass flow rates of oxidizer and fuel.**
+
+Also, Important: 
+We attached a separate folder called "TheRocket." This contains the MatLab numerical solver called "EngineSizer.m" we are using to characterize engine performance, flow rates, and various thermofluid states. Besides graphical outputs for various important parameters, this code spits out the csv files that we end up using for our RocketPy simulator: engine performance + mass flow rate data. While we've given you a static compilation of csv files to run RocketPy, do know that on our end we can very quickly: change variables --> run MatLab --> run RocketPy (auto finds csv files), allowing us to adapt design quickly. We already have ideas for how we can simplify and speed up this process. You will likely not be able to run this MatLab solver -- unless you go through the effort of importing the CoolProp and Cantera libraries into a Python environment, followed by connecting your environment to MatLab. However, we took a screenshot of all the graphical outputs we currently see every time we run this solver, which you can see by openeing "GraphOutputs".
+
+Credit goes to UAH (University of Alabama in Huntsville). Nitrous - ethane vehicles at the student rocketry level are rare. They have several years of experience developing nitrous-ethane systems, and were kind enough to share their MatLab numerical solver, as well as a research paper outlining how the numerical solver works. Our solver is basically a branch of UAH's solver. While we started our own MatLab files from scratch, the general approach, format, and some of the variable names, are identical. Most of the changes came in the form of eliminating tank supercharging and engine film-cooling from the solver, as well as modifying the input parameters we wanted.
