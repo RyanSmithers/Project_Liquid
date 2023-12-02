@@ -1,3 +1,12 @@
+Engine Solver: BambooEngineSolver
+Flight Simulator: TheRocket
+Excel File With Stored Parameters: MasterParameters
+Excel Pull Functionality: pythonExcelPull
+Data: where all the .csv are stored
+Canterplots: One of the outputs from the engine file
+
+--
+General Steps to run flight simulator
 1. Download all the files contained within this FAR_OUT_Review_1 folder. Makes sure all files download to the same directory/folder on your local computer
 
 2. Open TheRocket
